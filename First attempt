@@ -1,0 +1,49 @@
+class Animals:
+
+    def __init__(self, AnimalName, AnimalKind, AnimalSound):
+        self.aname = AnimalName
+        self.akind = AnimalKind
+        self.asound = AnimalSound
+
+    def defineTheAnimal(self):
+        print("animal:")
+        print("name:", self.aname,"\nkind:", self.akind,"\nsound:", self.asound)
+        print("*****************")
+
+
+class Colors:
+
+    def __init__(self, ColorName, PrimaryColor):
+        self.cname = ColorName
+        self.cprimary = PrimaryColor
+
+    def defineColor(self):
+        print("color:")
+        print("name:", self.cname, "\nIs it a primary color?", self.cprimary)
+        print("*****************")
+
+class Alphabet:
+
+    def __init__(self, Upper, Lower, example, vowels):
+        self.Upper = Upper
+        self.Lower = Lower
+        self.example = example
+        self.vowels = vowels
+
+    def defineAlphabet(self):
+        print("letter:")
+        print("Upper case:", self.Upper,"\nLower case:", self.Lower, "\nExample:", self.example, "\nIs it a vowel?", self.vowels)
+        print("*****************")
+
+
+
+def main():
+    animal1 = Animals("lion", "mammal", "roar")
+    color1 = Colors("white", "yes")
+    letter1 = Alphabet("A", "a", "apple", "yes")
+
+    animal1.defineTheAnimal()
+    color1.defineColor()
+    letter1.defineAlphabet()
+
+main()
