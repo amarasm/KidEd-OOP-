@@ -1,0 +1,129 @@
+{
+  "animals": {
+    "lion": {
+      "name": "lion",
+      "sound": "roar",
+      "kind": "mammal"
+    },
+    "cow": {
+      "name": "cow",
+      "sound": "moo",
+      "kind": "mammal"
+    },
+    "elephant": {
+      "name": "elephant",
+      "sound": "trumpet",
+      "kind": "mammal"
+    },
+    "dog": {
+      "name": "dog",
+      "sound": "bark",
+      "kind": "mammal"
+    },
+    "cat": {
+      "name": "cat",
+      "sound": "meow",
+      "kind": "mammal"
+    },
+    "mouse": {
+      "name": "mouse",
+      "sound": "squeak",
+      "kind": "mammal"
+    },
+    "horse": {
+      "name": "horse",
+      "sound": "neigh",
+      "kind": "mammal"
+    },
+    "giraffe": {
+      "name": "giraffe",
+      "sound": "bleat",
+      "kind": "mammal"
+    },
+    "bear": {
+      "name": "bear",
+      "sound": "growl",
+      "kind": "mammal"
+    },
+    "bat": {
+      "name": "bat",
+      "sound": "screech",
+      "kind": "mammal"
+    },
+    "owl": {
+      "name": "owl",
+      "sound": "hoot",
+      "kind": "bird"
+    },
+    "rooster": {
+      "name": "rooster",
+      "sound": "crow",
+      "kind": "bird"
+    },
+    "eagle": {
+      "name": "eagle",
+      "sound": "scream",
+      "kind": "bird"
+    },
+    "ostrich": {
+      "name": "ostrich",
+      "sound": "chirp",
+      "kind": "bird"
+    },
+    "goldfish": {
+      "name": "goldfish",
+      "sound": "hum",
+      "kind": "fish"
+    },
+    "shark": {
+      "name": "shark",
+      "sound": "silent",
+      "kind": "fish"
+    },
+    "clown_fish": {
+      "name": "clownfish",
+      "sound": "hum",
+      "kind": "fish"
+    },
+    "blue_tang": {
+      "name": "blue tang",
+      "sound": "hum",
+      "kind": "fish"
+    },
+    "turtle": {
+      "name": "turtle",
+      "sound": "hiss",
+      "kind": "reptile"
+    },
+    "lizard": {
+      "name": "lizard",
+      "sound": "hiss",
+      "kind": "reptile"
+    },
+    "dinosaur": {
+      "name": "dinosaur",
+      "sound": "roar",
+      "kind": "reptile"
+    },
+    "snake": {
+      "name": "snake",
+      "sound": "hiss",
+      "kind": "reptile"
+    },
+    "crocodile": {
+      "name": "crocodile",
+      "sound": "hiss",
+      "kind": "reptile"
+    },
+    "frog": {
+      "name": "frog",
+      "sound": "croak",
+      "kind": "amphibian"
+    },
+    "salamander": {
+      "name": "salamander",
+      "sound": "squeak",
+      "kind": "amphibian"
+    }
+  }
+}
