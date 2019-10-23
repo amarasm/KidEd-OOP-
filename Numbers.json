@@ -1,0 +1,34 @@
+{
+  "numbers": {
+    "1": {
+      "name": "one"
+    },
+    "2": {
+      "name": "two"
+    },
+    "3": {
+      "name": "three"
+    },
+    "4": {
+      "name": "four"
+    },
+    "5": {
+      "name": "five"
+    },
+    "6": {
+      "name": "six"
+    },
+    "7": {
+      "name": "seven"
+    },
+    "8": {
+      "name": "eight"
+    },
+    "9": {
+      "name": "nine"
+    },
+    "10": {
+      "name": "ten"
+    }
+  }
+}

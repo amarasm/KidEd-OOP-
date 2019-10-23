@@ -1,0 +1,48 @@
+{
+  "colors": {
+    "white": {
+      "name": "white",
+      "isPrimaryColor": false
+    },
+    "yellow": {
+      "name": "yellow",
+      "isPrimaryColor": true
+    },
+    "orange": {
+      "name": "orange",
+      "isPrimaryColor": false
+    },
+    "red": {
+      "name": "red",
+      "isPrimaryColor": true
+    },
+    "pink": {
+      "name": "pink",
+      "isPrimaryColor": false
+    },
+    "purple": {
+      "name": "purple",
+      "isPrimaryColor": false
+    },
+    "blue": {
+      "name": "blue",
+      "isPrimaryColor": true
+    },
+    "green": {
+      "name": "green",
+      "isPrimaryColor": false
+    },
+    "brown": {
+      "name": "brown",
+      "isPrimaryColor": false
+    },
+    "grey": {
+      "name": "grey",
+      "isPrimaryColor": false
+    },
+    "black": {
+      "name": "black",
+      "isPrimaryColor": false
+    }
+  }
+}

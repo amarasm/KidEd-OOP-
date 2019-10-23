@@ -1,0 +1,134 @@
+{
+  "alphabet": {
+    "a": {
+      "upperCase": "A",
+      "lowerCase": "a",
+      "example": "Apple"
+    },
+    "b": {
+      "upperCase": "B",
+      "lowerCase": "b",
+      "example": "Bee"
+    },
+    "c": {
+      "upperCase": "C",
+      "lowerCase": "c",
+      "example": "Car"
+    },
+    "d": {
+      "upperCase": "D",
+      "lowerCase": "d",
+      "example": "Dog"
+    },
+    "e": {
+      "upperCase": "E",
+      "lowerCase": "e",
+      "example": "Elbow"
+    },
+    "f": {
+      "upperCase": "F",
+      "lowerCase": "f",
+      "example": "Forest"
+    },
+    "g": {
+      "upperCase": "G",
+      "lowerCase": "g",
+      "example": "Goat"
+    },
+    "h": {
+      "upperCase": "H",
+      "lowerCase": "h",
+      "example": "Horse"
+    },
+    "i": {
+      "upperCase": "I",
+      "lowerCase": "i",
+      "example": "Ice"
+    },
+    "j": {
+      "upperCase": "J",
+      "lowerCase": "j",
+      "example": "Jelly"
+    },
+    "k": {
+      "upperCase": "K",
+      "lowerCase": "k",
+      "example": "Kite"
+    },
+    "l": {
+      "upperCase": "L",
+      "lowerCase": "l",
+      "example": "Lamp"
+    },
+    "m": {
+      "upperCase": "M",
+      "lowerCase": "m",
+      "example": "Monkey"
+    },
+    "n": {
+      "upperCase": "N",
+      "lowerCase": "n",
+      "example": "Night"
+    },
+    "o": {
+      "upperCase": "O",
+      "lowerCase": "o",
+      "example": "Ocean"
+    },
+    "p": {
+      "upperCase": "P",
+      "lowerCase": "p",
+      "example": "Pillow"
+    },
+    "q": {
+      "upperCase": "Q",
+      "lowerCase": "q",
+      "example": "Question"
+    },
+    "r": {
+      "upperCase": "R",
+      "lowerCase": "r",
+      "example": "Rainbow"
+    },
+    "s": {
+      "upperCase": "S",
+      "lowerCase": "s",
+      "example": "Stone"
+    },
+    "t": {
+      "upperCase": "T",
+      "lowerCase": "t",
+      "example": "Tea"
+    },
+    "u": {
+      "upperCase": "U",
+      "lowerCase": "u",
+      "example": "Up"
+    },
+    "v": {
+      "upperCase": "V",
+      "lowerCase": "v",
+      "example": "Velvet"
+    },
+    "w": {
+      "upperCase": "W",
+      "lowerCase": "w",
+      "example": "Water"
+    },
+    "x": {
+      "upperCase": "X",
+      "lowerCase": "x",
+      "example": "X-ray"
+    },
+    "y": {
+      "upperCase": "Y",
+      "lowerCase": "y",
+      "example": "Yawn"
+    },
+    "z": {
+      "upperCase": "Z",
+      "lowerCase": "z",
+      "example": "Zebra"
+    }
+  }
+}
