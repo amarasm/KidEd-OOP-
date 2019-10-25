@@ -11,19 +11,33 @@ class Animals:
         with open('Animals.json') as data_file:
             file = json.load(data_file)
         animalsCateg = file["animals"]
-        self.category = animalsCateg
+        for key in animalsCateg:
+            animal = Animal(key, animalsCateg[key]["sound"], animalsCateg[key]["kind"])
+            self.category[key] = animal
+
+    def getCategoryNames(self):
+        names = []
+        for key in self.category.keys():
+            names.append(key)
+        return names
 
     def getAnimals(self, count):
-        animalList = []
-        for keys in self.category.keys():
-            animalList.append(keys)
-        yourchoices = random.choices(animalList, k=count)
+        yourchoices = random.choices(self.getCategoryNames(), k=count)
         for key in yourchoices:
-            print("Its name is", key, ", its sound is", self.category[key]["sound"],
-                  "and it's a type of", self.category[key]["kind"], ".")
+            self.category[key].displayData()
 
     def getAnimalCateg(self):
-        print(self.category.keys())
+        print(self.getCategoryNames())
+
+class Animal:
+    def __init__(self, name, sound, kind):
+        self.name = name
+        self.sound = sound
+        self.kind = kind
+
+    def displayData(self):
+        print("Its name is", self.name, ", its sound is", self.sound,
+              "and it's a type of", self.kind, ".")
 
 def main():
     print("\nDear user welcome to this application. Here you can learn more about animals.")
@@ -38,7 +52,6 @@ def main():
             print("Here are the keys:")
             animals.getAnimalCateg()
 
-            number = 0
             while True:
                 number = input("Number of animals you want to learn today:")
                 if number.isnumeric():
