@@ -1,1 +1,352 @@
-{"categories": {"animals": {"lion": {"name": "lion", "sound": "roar", "kind": "mammal"}, "cow": {"name": "cow", "sound": "moo", "kind": "mammal"}, "elephant": {"name": "elephant", "sound": "trumpet", "kind": "mammal"}, "dog": {"name": "dog", "sound": "bark", "kind": "mammal"}, "cat": {"name": "cat", "sound": "meow", "kind": "mammal"}, "mouse": {"name": "mouse", "sound": "squeak", "kind": "mammal"}, "horse": {"name": "horse", "sound": "neigh", "kind": "mammal"}, "giraffe": {"name": "giraffe", "sound": "bleat", "kind": "mammal"}, "bear": {"name": "bear", "sound": "growl", "kind": "mammal"}, "bat": {"name": "bat", "sound": "screech", "kind": "mammal"}, "owl": {"name": "owl", "sound": "hoot", "kind": "bird"}, "rooster": {"name": "rooster", "sound": "crow", "kind": "bird"}, "eagle": {"name": "eagle", "sound": "scream", "kind": "bird"}, "ostrich": {"name": "ostrich", "sound": "chirp", "kind": "bird"}, "goldfish": {"name": "goldfish", "sound": "hum", "kind": "fish"}, "shark": {"name": "shark", "sound": "silent", "kind": "fish"}, "clown_fish": {"name": "clownfish", "sound": "hum", "kind": "fish"}, "blue_tang": {"name": "blue tang", "sound": "hum", "kind": "fish"}, "turtle": {"name": "turtle", "sound": "hiss", "kind": "reptile"}, "lizard": {"name": "lizard", "sound": "hiss", "kind": "reptile"}, "dinosaur": {"name": "dinosaur", "sound": "roar", "kind": "reptile"}, "snake": {"name": "snake", "sound": "hiss", "kind": "reptile"}, "crocodile": {"name": "crocodile", "sound": "hiss", "kind": "reptile"}, "frog": {"name": "frog", "sound": "croak", "kind": "amphibian"}, "salamander": {"name": "salamander", "sound": "squeak", "kind": "amphibian"}}, "colors": {"white": {"name": "white", "isPrimaryColor": false}, "yellow": {"name": "yellow", "isPrimaryColor": true}, "orange": {"name": "orange", "isPrimaryColor": false}, "red": {"name": "red", "isPrimaryColor": true}, "pink": {"name": "pink", "isPrimaryColor": false}, "purple": {"name": "purple", "isPrimaryColor": false}, "blue": {"name": "blue", "isPrimaryColor": true}, "green": {"name": "green", "isPrimaryColor": false}, "brown": {"name": "brown", "isPrimaryColor": false}, "grey": {"name": "grey", "isPrimaryColor": false}, "black": {"name": "black", "isPrimaryColor": false}}, "alphabet": {"a": {"upperCase": "A", "lowerCase": "a", "example": "Apple"}, "b": {"upperCase": "B", "lowerCase": "b", "example": "Bee"}, "c": {"upperCase": "C", "lowerCase": "c", "example": "Car"}, "d": {"upperCase": "D", "lowerCase": "d", "example": "Dog"}, "e": {"upperCase": "E", "lowerCase": "e", "example": "Elbow"}, "f": {"upperCase": "F", "lowerCase": "f", "example": "Forest"}, "g": {"upperCase": "G", "lowerCase": "g", "example": "Goat"}, "h": {"upperCase": "H", "lowerCase": "h", "example": "Horse"}, "i": {"upperCase": "I", "lowerCase": "i", "example": "Ice"}, "j": {"upperCase": "J", "lowerCase": "j", "example": "Jelly"}, "k": {"upperCase": "K", "lowerCase": "k", "example": "Kite"}, "l": {"upperCase": "L", "lowerCase": "l", "example": "Lamp"}, "m": {"upperCase": "M", "lowerCase": "m", "example": "Monkey"}, "n": {"upperCase": "N", "lowerCase": "n", "example": "Night"}, "o": {"upperCase": "O", "lowerCase": "o", "example": "Ocean"}, "p": {"upperCase": "P", "lowerCase": "p", "example": "Pillow"}, "q": {"upperCase": "Q", "lowerCase": "q", "example": "Question"}, "r": {"upperCase": "R", "lowerCase": "r", "example": "Rainbow"}, "s": {"upperCase": "S", "lowerCase": "s", "example": "Stone"}, "t": {"upperCase": "T", "lowerCase": "t", "example": "Tea"}, "u": {"upperCase": "U", "lowerCase": "u", "example": "Up"}, "v": {"upperCase": "V", "lowerCase": "v", "example": "Velvet"}, "w": {"upperCase": "W", "lowerCase": "w", "example": "Water"}, "x": {"upperCase": "X", "lowerCase": "x", "example": "X-ray"}, "y": {"upperCase": "Y", "lowerCase": "y", "example": "Yawn"}, "z": {"upperCase": "Z", "lowerCase": "z", "example": "Zebra"}}, "numbers": {"1": {"name": "one"}, "2": {"name": "two"}, "3": {"name": "three"}, "4": {"name": "four"}, "5": {"name": "five"}, "6": {"name": "six"}, "7": {"name": "seven"}, "8": {"name": "eight"}, "9": {"name": "nine"}, "10": {"name": "ten"}}, "Fruits": {"apple": {"name": "Apple"}, "orange": {"name": "Orange"}}}}
+{
+  "categories": {
+    "animals": {
+      "lion": {
+        "name": "lion",
+        "sound": "roar",
+        "kind": "mammal"
+      },
+      "cow": {
+        "name": "cow",
+        "sound": "moo",
+        "kind": "mammal"
+      },
+      "elephant": {
+        "name": "elephant",
+        "sound": "trumpet",
+        "kind": "mammal"
+      },
+      "dog": {
+        "name": "dog",
+        "sound": "bark",
+        "kind": "mammal"
+      },
+      "cat": {
+        "name": "cat",
+        "sound": "meow",
+        "kind": "mammal"
+      },
+      "mouse": {
+        "name": "mouse",
+        "sound": "squeak",
+        "kind": "mammal"
+      },
+      "horse": {
+        "name": "horse",
+        "sound": "neigh",
+        "kind": "mammal"
+      },
+      "giraffe": {
+        "name": "giraffe",
+        "sound": "bleat",
+        "kind": "mammal"
+      },
+      "bear": {
+        "name": "bear",
+        "sound": "growl",
+        "kind": "mammal"
+      },
+      "bat": {
+        "name": "bat",
+        "sound": "screech",
+        "kind": "mammal"
+      },
+      "owl": {
+        "name": "owl",
+        "sound": "hoot",
+        "kind": "bird"
+      },
+      "rooster": {
+        "name": "rooster",
+        "sound": "crow",
+        "kind": "bird"
+      },
+      "eagle": {
+        "name": "eagle",
+        "sound": "scream",
+        "kind": "bird"
+      },
+      "ostrich": {
+        "name": "ostrich",
+        "sound": "chirp",
+        "kind": "bird"
+      },
+      "goldfish": {
+        "name": "goldfish",
+        "sound": "hum",
+        "kind": "fish"
+      },
+      "shark": {
+        "name": "shark",
+        "sound": "silent",
+        "kind": "fish"
+      },
+      "clown_fish": {
+        "name": "clownfish",
+        "sound": "hum",
+        "kind": "fish"
+      },
+      "blue_tang": {
+        "name": "blue tang",
+        "sound": "hum",
+        "kind": "fish"
+      },
+      "turtle": {
+        "name": "turtle",
+        "sound": "hiss",
+        "kind": "reptile"
+      },
+      "lizard": {
+        "name": "lizard",
+        "sound": "hiss",
+        "kind": "reptile"
+      },
+      "dinosaur": {
+        "name": "dinosaur",
+        "sound": "roar",
+        "kind": "reptile"
+      },
+      "snake": {
+        "name": "snake",
+        "sound": "hiss",
+        "kind": "reptile"
+      },
+      "crocodile": {
+        "name": "crocodile",
+        "sound": "hiss",
+        "kind": "reptile"
+      },
+      "frog": {
+        "name": "frog",
+        "sound": "croak",
+        "kind": "amphibian"
+      },
+      "salamander": {
+        "name": "salamander",
+        "sound": "squeak",
+        "kind": "amphibian"
+      }
+    },
+    "colors": {
+      "white": {
+        "name": "white",
+        "isPrimaryColor": false
+      },
+      "yellow": {
+        "name": "yellow",
+        "isPrimaryColor": true
+      },
+      "orange": {
+        "name": "orange",
+        "isPrimaryColor": false
+      },
+      "red": {
+        "name": "red",
+        "isPrimaryColor": true
+      },
+      "pink": {
+        "name": "pink",
+        "isPrimaryColor": false
+      },
+      "purple": {
+        "name": "purple",
+        "isPrimaryColor": false
+      },
+      "blue": {
+        "name": "blue",
+        "isPrimaryColor": true
+      },
+      "green": {
+        "name": "green",
+        "isPrimaryColor": false
+      },
+      "brown": {
+        "name": "brown",
+        "isPrimaryColor": false
+      },
+      "grey": {
+        "name": "grey",
+        "isPrimaryColor": false
+      },
+      "black": {
+        "name": "black",
+        "isPrimaryColor": false
+      }
+    },
+    "alphabet": {
+      "a": {
+        "upperCase": "A",
+        "lowerCase": "a",
+        "example": "Apple"
+      },
+      "b": {
+        "upperCase": "B",
+        "lowerCase": "b",
+        "example": "Bee"
+      },
+      "c": {
+        "upperCase": "C",
+        "lowerCase": "c",
+        "example": "Car"
+      },
+      "d": {
+        "upperCase": "D",
+        "lowerCase": "d",
+        "example": "Dog"
+      },
+      "e": {
+        "upperCase": "E",
+        "lowerCase": "e",
+        "example": "Elbow"
+      },
+      "f": {
+        "upperCase": "F",
+        "lowerCase": "f",
+        "example": "Forest"
+      },
+      "g": {
+        "upperCase": "G",
+        "lowerCase": "g",
+        "example": "Goat"
+      },
+      "h": {
+        "upperCase": "H",
+        "lowerCase": "h",
+        "example": "Horse"
+      },
+      "i": {
+        "upperCase": "I",
+        "lowerCase": "i",
+        "example": "Ice"
+      },
+      "j": {
+        "upperCase": "J",
+        "lowerCase": "j",
+        "example": "Jelly"
+      },
+      "k": {
+        "upperCase": "K",
+        "lowerCase": "k",
+        "example": "Kite"
+      },
+      "l": {
+        "upperCase": "L",
+        "lowerCase": "l",
+        "example": "Lamp"
+      },
+      "m": {
+        "upperCase": "M",
+        "lowerCase": "m",
+        "example": "Monkey"
+      },
+      "n": {
+        "upperCase": "N",
+        "lowerCase": "n",
+        "example": "Night"
+      },
+      "o": {
+        "upperCase": "O",
+        "lowerCase": "o",
+        "example": "Ocean"
+      },
+      "p": {
+        "upperCase": "P",
+        "lowerCase": "p",
+        "example": "Pillow"
+      },
+      "q": {
+        "upperCase": "Q",
+        "lowerCase": "q",
+        "example": "Question"
+      },
+      "r": {
+        "upperCase": "R",
+        "lowerCase": "r",
+        "example": "Rainbow"
+      },
+      "s": {
+        "upperCase": "S",
+        "lowerCase": "s",
+        "example": "Stone"
+      },
+      "t": {
+        "upperCase": "T",
+        "lowerCase": "t",
+        "example": "Tea"
+      },
+      "u": {
+        "upperCase": "U",
+        "lowerCase": "u",
+        "example": "Up"
+      },
+      "v": {
+        "upperCase": "V",
+        "lowerCase": "v",
+        "example": "Velvet"
+      },
+      "w": {
+        "upperCase": "W",
+        "lowerCase": "w",
+        "example": "Water"
+      },
+      "x": {
+        "upperCase":
+        "X",
+        "lowerCase": "x",
+        "example": "X-ray"
+      },
+      "y": {
+        "upperCase": "Y",
+        "lowerCase": "y",
+        "example": "Yawn"
+      },
+      "z": {
+        "upperCase": "Z",
+        "lowerCase": "z",
+        "example": "Zebra"
+      }
+    },
+    "numbers": {
+      "1": {
+        "key": "1",
+        "name": "one"
+      },
+      "2": {
+        "key": "2",
+        "name": "two"
+      },
+      "3": {
+        "key": "3",
+        "name": "three"
+      },
+      "4": {
+        "key": "4",
+        "name": "four"
+      },
+      "5": {
+        "key": "5",
+        "name": "five"
+      },
+      "6": {
+        "key": "6",
+        "name": "six"
+      },
+      "7": {
+        "key": "7",
+        "name": "seven"
+      },
+      "8": {
+        "key": "8",
+        "name": "eight"
+      },
+      "9": {
+        "key": "9",
+        "name": "nine"
+      },
+      "10": {
+        "key": "10",
+        "name": "ten"
+      }
+    }
+  }
+}
