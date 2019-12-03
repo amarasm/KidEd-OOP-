@@ -47,15 +47,11 @@ class Alphabet:
             file = json.load(data_file)
         alphabetCateg = file["alphabet"]
         return alphabetCateg
-        # for key in alphabetCateg:
-        #     letter = Letter(key, alphabetCateg[key]["upperCase"], alphabetCateg[key]["example"])
-        #     self.category[key] = letter
 
     def appendingNewLetter(self):
         alphabetCateg = self.loadFromJson()
         for key in alphabetCateg:
             self.category.appending(alphabetCateg[key]["lowerCase"], alphabetCateg[key]["upperCase"], alphabetCateg[key]["example"])
-
 
     def getLetterName(self):
         temp = self.category
@@ -67,17 +63,12 @@ class Alphabet:
         for key in yourchoices:
             self.category.displayData(key)
 
-
-
-
-
 class Letter:
     def __init__(self, lowerCase, upperCase, example):
         self.lowerCase = lowerCase
         self.upperCase = upperCase
         self.example = example
         self.next = None
-
 
 def main():
     print("\nDear user welcome to this application. Here you can learn more about the alphabet.")
