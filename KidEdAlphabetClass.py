@@ -2,30 +2,81 @@ import json
 import random
 
 
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def setHead(self, lowerCase, upperCase, example):
+        self.head = Letter(lowerCase, upperCase, example)
+
+    def appending(self, lowerCase, upperCase, example):
+        temp = self.head
+        if temp is None:
+            self.setHead( lowerCase, upperCase, example)
+        else:
+            while temp.next is not None:
+                temp = temp.next
+            newLetter = Letter(lowerCase, upperCase, example)
+            temp.next = newLetter
+
+    def displayData(self, key):
+        printLetter = self.head
+        while printLetter is not None:
+            if printLetter.lowerCase == key:
+                print("The lowercase is", printLetter.lowerCase, ", the uppercase is", printLetter.upperCase,". For example:", printLetter.example)
+                break
+            else:
+                printLetter = printLetter.next
+
+    def createCategory(self):
+        names = []
+        keys = self.head
+        while keys is not None:
+            names.append(keys.lowerCase)
+            keys = keys.next
+        return names
+
 class Alphabet:
 
     def __init__(self):
-        self.category = {}
+        self.category = LinkedList()
         self.loadFromJson()
 
     def loadFromJson(self):
         with open('Alphabet.json') as data_file:
             file = json.load(data_file)
         alphabetCateg = file["alphabet"]
-        self.category = alphabetCateg
+        return alphabetCateg
+        # for key in alphabetCateg:
+        #     letter = Letter(key, alphabetCateg[key]["upperCase"], alphabetCateg[key]["example"])
+        #     self.category[key] = letter
+
+    def appendingNewLetter(self):
+        alphabetCateg = self.loadFromJson()
+        for key in alphabetCateg:
+            self.category.appending(alphabetCateg[key]["lowerCase"], alphabetCateg[key]["upperCase"], alphabetCateg[key]["example"])
+
+
+    def getLetterName(self):
+        temp = self.category
+        print((", ").join(temp.createCategory()))
 
     def getAlphabet(self, count):
-        alphabetList = []
-        for keys in self.category.keys():
-            alphabetList.append(keys)
-        yourchoices = random.choices(alphabetList, k=count)
+        categ = self.category.createCategory()
+        yourchoices = random.choices(categ, k=count)
         for key in yourchoices:
-            print("the lowercase is", key, "the uppercase is",
-                  self.category[key]["upperCase"], ". For example:",
-                  self.category[key]["example"])
+            self.category.displayData(key)
 
-    def getAlphabetCateg(self):
-        print((", ").join(self.category.keys()))
+
+
+
+
+class Letter:
+    def __init__(self, lowerCase, upperCase, example):
+        self.lowerCase = lowerCase
+        self.upperCase = upperCase
+        self.example = example
+        self.next = None
 
 
 def main():
@@ -37,10 +88,13 @@ def main():
         if choice == "yes":
             alphabet = Alphabet()
 
-            print("\nHere are the keys:")
-            alphabet.getAlphabetCateg()
+            alphabet.appendingNewLetter()
 
-            number = 0
+            print("\nHere are the keys:")
+            alphabet.getLetterName()
+
+
+
             while True:
                 number = input("\nNumber of letters you want to learn today:")
                 if number.isnumeric():
